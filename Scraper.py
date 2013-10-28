@@ -8,7 +8,7 @@ count=0
 f.write("URL,Rank,School Name,Address,place,lat,long")
 f.write('\n')
 wll=0
-g= Geocoder('174144268604','AIzaSyBwDjyf8qevMrJV_363m8sMhk1WlaAcJgc')
+g= Geocoder(INSERT API KEYS HERE)
 
 for x in range(1,23):
 	print("Loading",end='')
